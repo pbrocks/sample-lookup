@@ -1,0 +1,66 @@
+body {
+	margin: 5%;
+	font-family: sans-serif;
+}
+h1, h2, h3 {
+	text-align: center;
+}
+.grid-wrapper {
+	width: 50%;
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
+	background-color: #fff;
+	color: #0B98C4;
+	border: .3rem solid #749f42;
+	padding: 1rem;
+}
+
+.box {
+	background-color: #0B98C4;
+	color: #fff;
+	border-radius: 5px;
+	padding: 2%;
+	margin: 2% 0 2% 0;
+	font-size: 150%;
+}
+.section {
+	padding: 0 2rem;
+}
+.section.one {
+	grid-row: 1 / 2;
+}
+#logo-section {
+    background-image: url(../images/pmpro-logo.png);
+    min-height: 6rem;
+    background-repeat: no-repeat;
+
+}
+
+.section.two {
+	grid-row: 3 / 4;
+}
+
+.section.three {
+	grid-row: 5 / 6;
+	padding: 0 3rem;
+}
+.ad {
+	text-align: center;
+}
+.ad.one {
+	grid-row: 2 / 3;
+}
+
+.ad.two {
+	grid-row: 4 / 5;
+}
+input  {
+    border: 1px solid salmon;
+    padding: 5px;
+}
+span {
+	color: salmon;
+	font-style: italic;
+}
